@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--FONTAWESOME (para usar los iconos)-->
+    <script src="https://kit.fontawesome.com/b82ccfea6c.js" crossorigin="anonymous"></script>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="https://mir-s3-cdn-cf.behance.net/project_modules/disp/945b0225337909.563440870421b.png" type="image/x-icon">
+    <!-- MIS ESTILOS CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi portfolio | Sosa Martin</title>
+</head>
+<body class="bg-light"> <!--clase para darle color al body-->
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a href="#" class="navbar-brand text-primary fw-bold fs-4">Sosa Leandro Martin</a>
+            <div class="dropdown">
+                <button class="btn btn-primary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a href="#home" class="dropdown-item">Home</a></li>
+                    <li><a href="#acercaDe" class="dropdown-item">Acerca de</a></li>
+                    <li><a href="#servicios" class="dropdown-item">Servicios</a></li>
+                    <li><a href="#porfolio" class="dropdown-item">Portfolio</a></li>
+                    <li><a href="#reseñas" class="dropdown-item">Reseñas</a></li>
+                    <li><a href="#contacto" class="dropdown-item">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HOME SECTION-->
+    <section class="home py-5" id="home">
+        <div class="container-lg">
+
+            <div class="row min-vh-100 align-items-center align-content-center"> <!--FILA-->
+                
+                <div class="col-md-6 mt-5 mt-md-0 d-flex justify-content-center align-items-center align-content-center"> <!--IMAGEN-->
+                    <div class="home_img text-center">
+                        <img src="/img/IMG_8205.JPG" alt="icon-img" class="img-fluid rounded-circle mw-100">
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first"> <!--TEXT INFO-->
+                    <div class="home_text">
+                        <p class="text-muted mb-1"> Hola soy Martin Sosa</p>
+                        <h1 class="text-primary text-uppercase fs-1 fw-bold">Desarrollador Web</h1>
+                        <h2 class="fs-4">Html5 | Css3 | Bootstrap5</h2>
+                        <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsam 
+                            possimus sint odio aliquid repellat aliquam voluptate vitae voluptatem,
+                             fuga reprehenderit, accusantium voluptatum magni numquam maxime ut nemo
+                              maiores ad.</p>
+                        <a href="#" class="btn btn-primary px-3 mt-3">Mis trabajos <i class="fa-solid fa-briefcase"></i></a>      
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="row justify-content-center">
+        <!-- SUBTITULO -->
+        <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Acerca de mi</h2>
+                </div>
+        
+        <!-- SUBTITULO -->
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <div class="row">
+                        <div class="about-text">
+                            <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, perferendis a nam dolorum cum magnam, porro consequuntur quod assumenda accusamus, et amet est tempora nisi vel in similique voluptate distinctio!</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold">100</h4>
+                                    <p class="text-muted">Proyectos completados</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold">90</h4>
+                                    <p class="text-muted">Clientes Satisfechos</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold">95</h4>
+                                    <p class="text-muted">Reseñas positivas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BOTON DESCARGA -->
+                        <div class="row text-center text-uppercase my-3">
+                            <div class="col-lg-12 d-flex align-items-center">
+                                <a href="/file/listado-faltan-registrarse.pdf" target="_blank" class="btn btn-primary me-5 px-3">Descargar CV</a>
+                                <div class="social_links">
+                                    <a href="#" class="text-dark me-2 fs-3"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#" class="text-dark me-2 fs-3"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="#" class="text-dark me-2 fs-3"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="text-dark me-2 fs-3"><i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              HMTL5
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              CSS3
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              BOOTSTRAP5
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION  -->
+    <section class="services py-5" id="servicios">
+        <div class="container-lg py-4">
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5"> Mis Servicios</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <article class="col-md-6 col-lg-4 mb-4">
+                    <div class="service_item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-primary fs-2">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Desarrollo web</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </article>
+                <article class="col-md-6 col-lg-4 mb-4">
+                    <div class="service_item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-primary fs-2">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Diseño Creativo</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </article>
+                <article class="col-md-6 col-lg-4 mb-4">
+                    <div class="service_item  shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-primary fs-2">
+                            <i class="fa-solid fa-arrows-split-up-and-left"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Metodologias Agiles</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PORFOLIO SECTION -->
+    <section class="porfolio bg-white py-5" id="porfolio">
+        <div class="container-lg py-4">
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Mis últimos trabajos</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <article class="col-md-6 col-lg-4">
+                        <div class="porfolio_item mb-4">
+                            <img src="/img/1.jpg" alt="imagenes-trabajos" class="w-100 porfolio_img img-thumbnail">
+                            <h3 class="text-capitalize fs-5 my-2">Lorem ipsum dolor sit amet.</h3>
+                            <a href="#" class="mb-4 text-primary text-decoration-none">Vér mas</a>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="porfolio_item mb-4">
+                            <img src="/img/2.jpg" alt="imagenes-trabajos" class="w-100 porfolio_img img-thumbnail">
+                            <h3 class="text-capitalize fs-5 my-2">Lorem ipsum dolor sit amet.</h3>
+                            <a href="#" class="mb-4 text-primary text-decoration-none">Vér mas</a>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="porfolio_item mb-4">
+                            <img src="/img/3.jpg" alt="imagenes-trabajos" class="w-100 porfolio_img img-thumbnail">
+                            <h3 class="text-capitalize fs-5 my-2">Lorem ipsum dolor sit amet.</h3>
+                            <a href="#" class="mb-4 text-primary text-decoration-none">Vér mas</a>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="porfolio_item mb-4">
+                            <img src="/img/4.jpg" alt="imagenes-trabajos" class="w-100 porfolio_img img-thumbnail">
+                            <h3 class="text-capitalize fs-5 my-2">Lorem ipsum dolor sit amet.</h3>
+                            <a href="#" class="mb-4 text-primary text-decoration-none">Vér mas</a>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="porfolio_item mb-4">
+                            <img src="/img/5.jpg" alt="imagenes-trabajos" class="w-100 porfolio_img img-thumbnail">
+                            <h3 class="text-capitalize fs-5 my-2">Lorem ipsum dolor sit amet.</h3>
+                            <a href="#" class="mb-4 text-primary text-decoration-none">Vér mas</a>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="porfolio_item mb-4">
+                            <img src="/img/6.jpg" alt="imagenes-trabajos" class="w-100 porfolio_img img-thumbnail">
+                            <h3 class="text-capitalize fs-5 my-2">Lorem ipsum dolor sit amet.</h3>
+                            <a href="#" class="mb-4 text-primary text-decoration-none">Vér mas</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FREELANCE SECTION -->
+     <section class="freelance_section bg-primary bg-gradient py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">¿Necesitas realizar algun proyecto?</p>
+                    <h2 class="text-white fs-1 mb-4">¡Yo estoy disponible para ayudarte!</h2>
+                    <a href="" target="_blank" class="btn btn-outline-light"><i class="fa-brands fa-whatsapp"></i>  Contactame</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- REVIEWS SECTION -->
+      <section class="reseñas py-5" id="reseñas">
+        <div class="container-lg py-4">
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8 ">
+                    <h2 class="fw-bold mb-5 text-center">Reseñas de clientes</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    
+                    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="0" class="active" aria-current="true"aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+                        </div>    
+                        
+                        <div class="carousel-inner">
+                                <!-- ITEM1 -->
+                                <div class="carousel-item active">
+                                    <div class="review-item bg-primary bg-gradient shadow-sm rounded p-4">
+                                        <div class="review-author-info d-flex align-items-center">
+                                            <img src="/img/reviews/1.jpg" alt="profile-img" class="img-thumbnail rounded-circle">
+                                            <div class="author ms-3">
+                                                <h3 class="fs-6 mb-1 text-white">Lucas Medina</h3>
+                                                <p class="text-white m-0">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                        <p class="text-white mt-3 text-center mx-5 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore reiciendis quo temporibus sequi quam sunt! Asperiores ex sapiente iure vitae non vel sunt, harum nihil, corporis cupiditate quo quibusdam!</p>
+                                        <div class="rating text-white">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i> 
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- ITEM1 -->
+                                <!-- ITEM2 -->
+                                <div class="carousel-item active">
+                                    <div class="review-item bg-primary bg-gradient shadow-sm rounded p-4">
+                                        <div class="review-author-info d-flex align-items-center">
+                                            <img src="/img/reviews/2.jpg" alt="profile-img" class="img-thumbnail rounded-circle">
+                                            <div class="author ms-3">
+                                                <h3 class="fs-6 mb-1 text-white">Jimena Rodriguez</h3>
+                                                <p class="text-white m-0">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                        <p class="text-white mt-3 text-center mx-5 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore reiciendis quo temporibus sequi quam sunt! Asperiores ex sapiente iure vitae non vel sunt, harum nihil, corporis cupiditate quo quibusdam!</p>
+                                        <div class="rating text-white">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i> 
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- ITEM2 -->
+                                <!-- ITEM3 -->
+                                <div class="carousel-item active">
+                                    <div class="review-item bg-primary bg-gradient shadow-sm rounded p-4">
+                                        <div class="review-author-info d-flex align-items-center">
+                                            <img src="/img/reviews/3.jpg" alt="profile-img" class="img-thumbnail rounded-circle">
+                                            <div class="author ms-3">
+                                                <h3 class="fs-6 mb-1 text-white">Cristian Aguirre</h3>
+                                                <p class="text-white m-0">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </div>
+                                        <p class="text-white mt-3 text-center mx-5 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore reiciendis quo temporibus sequi quam sunt! Asperiores ex sapiente iure vitae non vel sunt, harum nihil, corporis cupiditate quo quibusdam!</p>
+                                        <div class="rating text-white">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i> 
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- ITEM3 -->
+                        </div>
+                        <!-- CONTROLES LATERALES -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previus</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+     <!-- FORM SECTION -->
+      <section class="contac bg-light py-5" id="contacto">
+        <div class="container-lg py-4">
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center fw-bold mb-5">Contacta Conmigo</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <article class="contact_item d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 ">Email</h3>
+                            <p class="text-muted">martinsoosaa@gmail.com</p>
+                        </div>
+                    </article>
+                    <article class="contact_item d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 ">Telefono</h3>
+                            <p class="text-muted">3863447601</p>
+                        </div>
+                    </article>
+                    <article class="contact_item d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 ">Ubicacion</h3>
+                            <p class="text-muted">Los Sosa - Monteros - Tucuman</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="contact_form">
+                        <form action="">
+                            
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" name="name" placeholder="Tu nombre" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" name="email" placeholder="Tu email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" name="asunto" placeholder="Asunto" class="form-control from-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                   <textarea rows="5" name="mensaje" id="" placeholder="Escribe tu mensaje" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                   <button type="submit" class="btn btn-primary px-3">Enviar Mensaje</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+      </section>
+     
+      <!-- FOOTER -->
+      <footer class="footer border-top py-4 bg-dark bg-gradient">
+        <div class="container-lg">
+            <div class="col-lg-12">
+                <p class="m-0 text-white text-center">&copy; Sosa Leandro Martin - 2024</p>
+            </div>
+        </div>
+      </footer>
+
+     <!--BOOTSTRAP5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
